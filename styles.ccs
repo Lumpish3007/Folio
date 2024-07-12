@@ -1,0 +1,21 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.custom-cursor {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ccc;
+    text-decoration: none;
+    color: #333;
+}
+
+.custom-cursor:hover {
+    cursor: url('custom-cursor.png'), auto;
+    /* Replace 'custom-cursor.png' with the actual path to your cursor image */
+}
