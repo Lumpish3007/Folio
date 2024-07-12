@@ -14,8 +14,3 @@ body {
     text-decoration: none;
     color: #333;
 }
-
-.custom-cursor:hover {
-    cursor: url('custom-cursor.png'), auto;
-    /* Replace 'custom-cursor.png' with the actual path to your cursor image */
-}
